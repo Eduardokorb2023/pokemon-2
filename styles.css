@@ -11,17 +11,17 @@
     height: 20px;
     background-color: rgb(255, 0, 0);
     position: absolute;
-    top: 50%;  /* Inicialmente no meio da tela */
-    left: -100px;  /* Começa fora da tela à esquerda */
-    transition: top 0.1s ease; /* Suaviza o movimento vertical da barra */
+    top: 50%; 
+    left: -100px;
+    transition: top 0.1s ease; 
   }
 
   @keyframes mover {
     0% {
-      left: -100px; /* Começa fora da tela à esquerda */
+      left: -100px;
     }
     100% {
-      left: 100%; /* Vai até o final da tela */
+      left: 100%; 
     }
   }
 
@@ -64,9 +64,7 @@ section {
 }
 
 .inicio-fundo {
-    /* aula 3 */
     background-image: url('International_Pokémon_logo.svg.png');
-    /* Substitua pelo caminho da sua imagem */
     background-size: cover;
     background-position: right;
     border-radius: 80px;
@@ -76,7 +74,7 @@ section {
     margin: 0 auto;
 }
 
-/* posicionamento para a imagem à direita */
+
 
 
 
@@ -93,9 +91,7 @@ section {
     border-radius: 30px;
     border: none;
     width: 14em;
-    /* Convertido para em aumenta o tamanho da fonte por tabela*/
     height: 3em;
-    /* Convertido para em */
     align-content: center;
 
 }
@@ -136,19 +132,13 @@ h2 {
     background-image: url('International_Pokémon_logo.svg.png');
     background-size: cover;
     padding: 4rem 0;
-    
-    /* Espaçamento interno para a seção de contato */
-
 }
 
 .formulario {
     background-color: #ffffff;
     padding: 2rem;
-    /* Espaçamento interno dentro do formulário */
     border-radius: 10px;
-    /* Borda arredondada para o formulário */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    /* Sombra suave para destacar o formulário */
     font-weight: bold;
 }
 
@@ -176,7 +166,6 @@ h2 {
     z-index: 20;
   }
   
-  /* Estilos básicos */
   body {
     font-size: 1rem;
   }
@@ -187,7 +176,7 @@ h2 {
   
   #opcoes-acessibilidade.apresenta-lista {
     margin-top: 10px;
-    display: flex; /* Mantém o display como flex */
+    display: flex; 
     flex-direction: column;
   }
   
